@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: url(https://i.postimg.cc/Hxg6dnBF/AP-red-moon-spain-kab-140812-33x16-992.jpg) no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+}
+
+.first-line{
+    background-color: rgb(197, 224, 244);
+    height: 32px;
+    border: 0px solid transparent;
+}
+.second_line{
+    background-color: transparent;
+    height: 32px;
+    border: 0px solid transparent;
+}
+
+.first-line-heading{
+    font-family: arial,narrow; 
+    font-size: 13px;
+    margin-top: 7px;
+    margin-left: 8px;
+    background-color: transparent;
+    border: transparent;
+    color: rgb(79, 78, 78);
+}
+.second-line-heading{
+    font-family: arial,narrow; 
+    font-size: 13px;
+    margin-top: 7px;
+    margin-right: 8px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+.second-line-heading-ava{
+    margin-top: 7px;
+    margin-right: 8px;
+    background-color: transparent;
+    padding: 10px;
+    border: transparent;
+    border-radius: 100%;
+    color: white;
+}
+.second-line-heading-ava img{
+    weight: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: transparent;
+}
+
+.list{
+    display: flex;
+}
+
+.list li{
+    margin-right: 20px;
+}
+.list2{
+    display: flex;
+    float: right;
+}
+
+.list2 li{
+    /* margin-left: 20px; */
+}
