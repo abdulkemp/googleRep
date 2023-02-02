@@ -24,14 +24,29 @@
         <div class="second_line">
             <ul class="list2">
                 <button class="second-line-heading">
-                    Gmail
+                    <a class="first" href="https://gmail.com/" target="first"
+                        style="color: white; text-decoration: none;">Gmail</a>
                 </button>
                 <button class="second-line-heading">
-                    Images
+                    <a class="first" href="https://www.google.co.za/imghp?hl=en&tab=ri&ogbl" target="first"
+                        style="color: white; text-decoration: none;">Images</a>
                 </button>
-                <button class="second-line-heading-dots">
-                    <ion-icon name="apps-outline" class="dots"></ion-icon>
-                </button>
+                <label class="dropdown">
+                    <button class="second-line-heading-dot dd-button">
+                        <ion-icon name="apps-outline" class="dots"></ion-icon>
+                    </button>
+                    <input type="checkbox" class="dd-input" id="test">
+
+                    <ul class="dd-menu">
+                        <li>Action</li>
+                        <li>Another action</li>
+                        <li>Something else here</li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="http://rane.io">Link to Rane.io</a>
+                        </li>
+                    </ul>
+                </label>
                 <button class="second-line-heading-ava">
                     <div class="imgcon">
                         <img src="https://i.postimg.cc/sDhqq5pY/Screenshot-20221101-100639-edit-159098746871600.jpg"
@@ -41,6 +56,7 @@
             </ul>
         </div>
     </nav>
+
     <section>
         <div class="container">
             <div class="holder">
@@ -49,36 +65,75 @@
                 </div>
             </div>
         </div>
+
         <div class="container2">
             <input type="search" name="search-outline" id="" placeholder="Search Google or type a URL" class="search">
         </div>
         <div class="buttons">
-            <div class="app1">
-                <div class="logo">
-                    <ion-icon name="logo-youtube" style="color: red;"></ion-icon>
+            <div class="but">
+                <div class="app">
+                    <div class="logo">
+                        <button class="size"><a class="first" href="https://youtube.com/" target="first">
+                                <ion-icon name="logo-youtube" style="color: red;"></ion-icon>
+                            </a></button>
+                    </div>
                 </div>
+
+                <h4>youtube</h4>
             </div>
-            <div class="app2">
-                <div class="logo">
-                    <ion-icon name="logo-github" style="color: darkslategrey;"></ion-icon>
+            <div class="but">
+                <div class="app">
+                    <div class="logo">
+                        <button class="size"><a class="first" href="https://github.com/" target="first">
+                                <ion-icon name="logo-github" style="color: darkslategrey;"></ion-icon>
+                            </a></button>
+                    </div>
                 </div>
+                <h4>github</h4>
             </div>
-            <div class="app3">
-                <div class="logo">
-                    <ion-icon name="logo-twitter" style="color: rgb(100, 165, 235);"></ion-icon>
+            <div class="but">
+                <div class="app">
+                    <div class="logo">
+                        <button class="size"><a class="first" href="https://twitter.com/" target="first">
+                                <ion-icon name="logo-twitter" style="color: rgb(100, 165, 235);"></ion-icon>
+                            </a></button>
+                    </div>
                 </div>
+                <h4>twitter</h4>
             </div>
-            <div class="app4">
-                <div class="logo">
-                    <ion-icon name="logo-whatsapp" style="color: rgb(9, 253, 9);"></ion-icon>
+            <div class="but">
+                <div class="app">
+                    <div class="logo">
+                        <button class="size"><a class="first" href="https://whatsapp.com/" target="first">
+                                <ion-icon name="logo-whatsapp" style="color: rgb(9, 253, 9);"></ion-icon>
+                            </a></button>
+                    </div>
                 </div>
+                <h4>whatsapp</h4>
             </div>
-            <div class="app5">
-                <div class="logo">
-                    <ion-icon name="logo-skype" style="color: rgb(63, 192, 214);"></ion-icon>
+            <div class="but">
+                <div class="app">
+                    <div class="logo">
+                        <button class="size"><a class="first" href="https://skype.com/" target="first">
+                                <ion-icon name="logo-skype" style="color: rgb(63, 192, 214);"></ion-icon>
+                            </a></button>
+                    </div>
                 </div>
+                <h4>skype</h4>
             </div>
         </div>
+
+    </section>
+
+    <section>
+        <footer>
+            <div class="foot">
+                <ion-icon name="link-outline" style="padding-right: 7px;"></ion-icon> Photo by Abdul Azeez Kemp
+            </div>
+            <div class="feet">
+                <ion-icon name="pencil-outline" style="width: 30px;"></ion-icon>
+            </div>
+        </footer>
     </section>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
